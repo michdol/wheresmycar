@@ -8,6 +8,7 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
         libpython3-dev \
+        pylint \
         gcc && \
     rm -rf /var/lib/apt/lists/*
 

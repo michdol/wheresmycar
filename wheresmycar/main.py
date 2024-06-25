@@ -1,3 +1,8 @@
+"""Main module"""
 
-def hello_world() -> str:
-    return "Hello World!"
+import torch
+
+
+def zeros() -> torch.Tensor:
+    """Returns tensor of zeros"""
+    return torch.zeros(2, 2)
