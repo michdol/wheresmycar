@@ -3,7 +3,7 @@ import os
 
 from unittest import TestCase, main, mock
 
-from wheresmycar.plate_detector import PlateDetector
+from wheresmycar import PlateDetector
 
 
 class PlateDetectorTest(TestCase):

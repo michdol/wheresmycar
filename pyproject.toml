@@ -1,0 +1,29 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wheresmycar"
+version = "0.0.1"
+description = "Detect vehicle license plates"
+readme = "README.md"
+authors = [{ name = "Michał Dołbniak", email = "michal.dolbniak@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["machine learning", "object detection", "educational"]
+dependencies = [
+    "torch >= 2.3.1",
+    "torchvision >= 0.18.1",
+    "ultralytics >= 8.2.42"
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pylint", "mypy"]
+
+[project.urls]
+Homepage = "https://github.com/michdol/wheresmycar"
