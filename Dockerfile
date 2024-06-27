@@ -8,7 +8,9 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update && \
     apt-get install --no-install-recommends -y \
         libpython3-dev \
-        ffmpeg libsm6 libxext6
+        ffmpeg \
+        libsm6 \
+        libxext6 \
         gcc && \
     rm -rf /var/lib/apt/lists/*
 
