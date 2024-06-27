@@ -1,2 +1,4 @@
+dist/
+wheresmycar.egg-info/
 outputs/
 assets/*:Zone.Identifier
