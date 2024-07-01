@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wheresmycar"
-version = "0.0.2.1"
+version = "0.0.2.2"
 description = "Detect vehicle license plates"
 readme = "README.md"
 authors = [{ name = "Michał Dołbniak", email = "michal.dolbniak@gmail.com" }]
